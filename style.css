@@ -1,0 +1,30 @@
+.circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+  position: relative;
+  top:285px;
+ left:1700px;
+  animation-name: miau;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes miau{
+  0%{
+    background-color:#820303;
+    position: relative;
+    top:285px;
+ left:250px;
+    width: 180px;
+    height:180px;
+  }
+  15%{
+    background-color:#b76fe3;
+    position:relative;
+   top: 50px;
+    left: 700px;
+    width: 350px;
+    height:350px;
+  }
+}
